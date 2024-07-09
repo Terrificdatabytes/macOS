@@ -48,6 +48,9 @@ defaults write com.apple.loginwindow AllowList -string '*'
 
 
 #install ngrok
+brew install caskroom/cask/brew-cask
+brew cask install teamviewer
+sudo /Applications/TeamViewer.app/Contents/MacOS/TeamViewer
 brew install --cask ngrok
 #install chrome
 brew install --cask google-chrome
@@ -55,8 +58,6 @@ brew install --cask google-chrome
 brew install --cask chrome-remote-desktop-host
 #install microsoft-remote-desktop(optional)
 #brew install --cask microsoft-remote-desktop
-#team-viewer (test)
-brew install --cask teamviewer
 #Anydesk
 brew install --cask anydesk
 
